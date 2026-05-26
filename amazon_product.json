@@ -1,0 +1,524 @@
+{
+  "success": true,
+  "cost": 0.001,
+  "error": null,
+  "trigger_sent_at": "2026-05-26T06:12:59.472783+00:00",
+  "data_fetched_at": "2026-05-26T06:13:24.220101+00:00",
+  "url": "https://www.amazon.in/Yogabar-High-Protein-Oats-Chocolate/dp/B0FY6Y8T9F/ref=lp_11364592031_1_1?pf_rd_p=9e034799-55e2-4ab2-b0d0-eb42f95b2d05&pf_rd_r=1NCWBJ1QWZY2AH7QPTW3&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
+  "status": "ready",
+  "data": {
+    "title": "Yogabar 26g High Protein Oats 1kg, Pack of 2 , Dark Chocolate - 26g Protein per 100g &No added sugar -High Protein Oats for Gym- Premium Protein Blend with Whey Protein Powder - with Chia, Sunflower & Pumpkin Seeds & Probiotics",
+    "seller_name": "RK World Infocom Pvt Ltd",
+    "brand": "Sproutlife Foods Private Limited",
+    "description": "Yogabar High Protein Oats Filter Kappi Yogabar High Protein Oats Mum's Masala Yogabar High Protein Oats Kesar Pista Kulfi Yogabar 26g High Protein Oats 1kg , Banana Creme - Breakfast Cereal with Whol... Yogabar 26g High Protein Oats 1kg , Fruits Nuts & Seeds - Breakfast Cereal wi... Yogabar 26g High Protein Oats (Variety Pack of 4) | Dark Chocolate, Filter Ka... Add to Cart Add to Cart Add to Cart Buying Options Add to Cart Buying Options Protein Per 100g 26g 26g 26g 26g 26g 26g No Added Sugar \u2713 no data \u2713 \u2713 \u2713 no data Flavor Filter Kappi Mum's Masala Kesar Pista Kulfi Banana Creme Fruit Nuts and Seeds Dark Chocolate, Filter Kappi, Korean Fire, Kesar Pista Kulfi",
+    "initial_price": 980,
+    "currency": "INR",
+    "availability": "In stock",
+    "reviews_count": 1276,
+    "categories": [
+      "Health & Personal Care",
+      "Diet & Nutrition",
+      "Sports Supplements",
+      "Protein Supplements",
+      "Protein Blends"
+    ],
+    "parent_asin": "B0CQ9TQG35",
+    "asin": "B0FY6Y8T9F",
+    "buybox_seller": "RK World Infocom Pvt Ltd",
+    "number_of_sellers": 1,
+    "root_bs_rank": 2775,
+    "answered_questions": 0,
+    "domain": "https://www.amazon.in/",
+    "images_count": 7,
+    "url": "https://www.amazon.in/Yogabar-High-Protein-Oats-Chocolate/dp/B0FY6Y8T9F?th=1&psc=1&language=en_IN&currency=INR",
+    "video_count": 2,
+    "image_url": "https://m.media-amazon.com/images/I/812ChxvbYiL._SL1500_.jpg",
+    "item_weight": "2 kg",
+    "rating": 4.3,
+    "product_dimensions": "20 x 25 x 13 cm; 2 kg",
+    "seller_id": "A15APWRK6P7LBV",
+    "image": "https://m.media-amazon.com/images/I/812ChxvbYiL._SL1500_.jpg",
+    "discount": "-24%",
+    "model_number": "Oats_P_DC_1kg_P2",
+    "manufacturer": "Sproutlife Foods Private Limited",
+    "department": "Health & Personal Care",
+    "plus_content": true,
+    "video": true,
+    "final_price_high": null,
+    "final_price": 749,
+    "variations": [
+      {
+        "name": "High Protein Oats - Dark Chocolate 1000 g (Pack of 1)",
+        "asin": "B0FPLDFK2W",
+        "price": 35900359,
+        "currency": "INR",
+        "unit_price": "\u20b935.90",
+        "image": "https://m.media-amazon.com/images/I/71bviMefwdL._SL1500_.jpg",
+        "color": null,
+        "size": "1000 g (Pack of 1)"
+      },
+      {
+        "name": "Muesli - Dark Chocolate 700 g (Pack of 3)",
+        "asin": "B0CRTMHSRT",
+        "price": 849,
+        "currency": "INR",
+        "unit_price": "\u20b940.43",
+        "image": "https://m.media-amazon.com/images/I/816ewrA1WDL._SL1500_.jpg",
+        "color": null,
+        "size": "700 g (Pack of 3)"
+      },
+      {
+        "name": "Protein Oats - Dark Chocolate 350 g (Pack of 1)",
+        "asin": "B0DV8XGKL9",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/71FaVmwEkCL._SL1500_.jpg",
+        "color": null,
+        "size": "350 g (Pack of 1)"
+      },
+      {
+        "name": "High Protein Oats - Dark Chocolate 1000 g (Pack of 3)",
+        "asin": "B0FYD581QN",
+        "price": 1099,
+        "currency": "INR",
+        "unit_price": "\u20b936.63",
+        "image": "https://m.media-amazon.com/images/I/81YqAL-+2XL._SL1500_.jpg",
+        "color": null,
+        "size": "1000 g (Pack of 3)"
+      },
+      {
+        "name": "Protein Bars - Assorted 35 Bars",
+        "asin": "B0DYP9G63F",
+        "price": 1199,
+        "currency": "INR",
+        "unit_price": "\u20b934.26",
+        "image": "https://m.media-amazon.com/images/I/71Z5OwBMt0L._SL1500_.jpg",
+        "color": null,
+        "size": "35 Bars"
+      },
+      {
+        "name": "High Protein Oats - Dark Chocolate 1000 g (Pack of 2)",
+        "asin": "B0FY6Y8T9F",
+        "price": 749,
+        "currency": "INR",
+        "unit_price": "\u20b937.45",
+        "image": "https://m.media-amazon.com/images/I/812ChxvbYiL._SL1500_.jpg",
+        "color": null,
+        "size": "1000 g (Pack of 2)"
+      },
+      {
+        "name": "Protein Oats - Dark Chocolate 850 g (Pack of 1)",
+        "asin": "B0B7BQNB9F",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/71FaVmwEkCL._SL1500_.jpg",
+        "color": null,
+        "size": "850 g (Pack of 1)"
+      },
+      {
+        "name": "Muesli - Dark Chocolate 700.00 g (Pack of 2)",
+        "asin": "B09M6GPZGX",
+        "price": 549,
+        "currency": "INR",
+        "unit_price": "\u20b939.21",
+        "image": "https://m.media-amazon.com/images/I/81G98O3zyqL._SL1500_.jpg",
+        "color": null,
+        "size": "700.00 g (Pack of 2)"
+      },
+      {
+        "name": "Protein Oats - Dark Chocolate 1 kg (Pack of 1)",
+        "asin": "B0GL8W3FF5",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/61HxGoP1AtL._SL1500_.jpg",
+        "color": null,
+        "size": "1 kg (Pack of 1)"
+      },
+      {
+        "name": "Oats - Dark Chocolate 400 g (Pack of 2)",
+        "asin": "B08SJ264LY",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/81rihG+anQL._SL1500_.jpg",
+        "color": null,
+        "size": "400 g (Pack of 2)"
+      },
+      {
+        "name": "Protein Oats - Dark Chocolate 850 g (Pack of 2)",
+        "asin": "B0CQP6DYVR",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/71WtREALY8L._SL1500_.jpg",
+        "color": null,
+        "size": "850 g (Pack of 2)"
+      },
+      {
+        "name": "Oats - Dark Chocolate 1 kg (Pack of 2)",
+        "asin": "B0CQP4YDTR",
+        "price": 699,
+        "currency": "INR",
+        "unit_price": "\u20b934.95",
+        "image": "https://m.media-amazon.com/images/I/61QWwQa5xmL._SL1000_.jpg",
+        "color": null,
+        "size": "1 kg (Pack of 2)"
+      },
+      {
+        "name": "Dark Chocolate 350 g (Pack of 1)",
+        "asin": "B0C4L31XN1",
+        "price": null,
+        "currency": "INR",
+        "unit_price": null,
+        "image": "https://m.media-amazon.com/images/I/81cvYxky6ML._SL1500_.jpg",
+        "color": null,
+        "size": "350 g (Pack of 1)"
+      },
+      {
+        "name": "Dark Chocolate + Cranberry 700 g (Pack of 1)",
+        "asin": "B07X5834FK",
+        "price": 279,
+        "currency": "INR",
+        "unit_price": "\u20b939.86",
+        "image": "https://m.media-amazon.com/images/I/719eiShdcGL._SL1500_.jpg",
+        "color": null,
+        "size": "700 g (Pack of 1)"
+      },
+      {
+        "name": "Muesli - Dark Chocolate 400 g (Pack of 1)",
+        "asin": "B07MRKN8P2",
+        "price": 179,
+        "currency": "INR",
+        "unit_price": "\u20b944.75",
+        "image": "https://m.media-amazon.com/images/I/71JfQ0AmMxL._SL1500_.jpg",
+        "color": null,
+        "size": "400 g (Pack of 1)"
+      }
+    ],
+    "delivery": [
+      "FREE delivery Thursday, 28 May. ",
+      "Or fastest delivery Tomorrow 8 am - 12 pm. Order within 11 hrs 31 mins. "
+    ],
+    "features": [
+      "\"High Protein & Gut-Friendly Delivers the highest possible protein quality (PDCAAS score of 1.0) with 26g protein per 100g. Made from quality oats with no added sugar, plus fiber from Nuts and probiotics to support digestion.\"",
+      "\"Wholesome Ingredients Made with premium chia, pumpkin, sunflower seeds, and raisins for natural crunch, and rich indulgent dark chocolate for both nutrition and a satisfying healthy breakfast.\"",
+      "Complete Protein Blend Combination of premium whey protein powder and soy protein isolate ensures better protein availability.",
+      "\"Ideal For Fitness enthusiasts, gym goers, athletes and people looking to boost protein intake",
+      "\"How to consume For every 50g Oats, add 250ml milk. Cook on medium flame for 5 minutes and enjoy!\""
+    ],
+    "buybox_prices": {
+      "final_price": 749,
+      "initial_price": 980,
+      "discount": "-24%",
+      "unit_price": "\u20b937.45 /100 g"
+    },
+    "ingredients": "Oats",
+    "bought_past_month": 1000,
+    "is_available": true,
+    "root_bs_category": "Health & Personal Care",
+    "bs_category": "Protein Blends",
+    "bs_rank": 5,
+    "badge": null,
+    "subcategory_rank": null,
+    "amazon_choice": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/812ChxvbYiL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71L2aWRyOSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VV-LncayL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81e3qiDZUPL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71habWA2+XL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61lxx+1o49L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71J68bTZziL._SL1500_.jpg"
+    ],
+    "product_details": [
+      {
+        "type": "Product Dimensions",
+        "value": "20 x 25 x 13 cm; 2 kg"
+      },
+      {
+        "type": "Manufacturer",
+        "value": "Sproutlife Foods Private Limited"
+      },
+      {
+        "type": "ASIN",
+        "value": "B0FY6Y8T9F"
+      },
+      {
+        "type": "Item model number",
+        "value": "Oats_P_DC_1kg_P2"
+      },
+      {
+        "type": "Country of Origin",
+        "value": "India"
+      },
+      {
+        "type": "Manufacturer",
+        "value": "Plot No.6 and 7, India Food Park, Vasanthanarasapura Industrial Area, KIADB Phase 3, Kora Hobli, Tumkur, Karnataka-572138. Customer Care Details In case of any consumer feedback, queries or complaints, please write to Customer Care at the address mentioned or Call +91 96060 30616 or Email hello@yogabars.in, Sproutlife Foods Private Limited"
+      },
+      {
+        "type": "Packer",
+        "value": "\"Sproutlife Foods Private Limited - Vasanthanarsapura Industrial Area, KIADB Phase 3, Tumkur, Batsandra, Karnataka 572651\""
+      },
+      {
+        "type": "Importer",
+        "value": "Sproutlife Foods Private Limited"
+      },
+      {
+        "type": "Item Weight",
+        "value": "2 kg"
+      },
+      {
+        "type": "Item Dimensions LxWxH",
+        "value": "20 x 25 x 13 Centimeters"
+      },
+      {
+        "type": "Net Quantity",
+        "value": "2000.0 Grams"
+      },
+      {
+        "type": "Generic Name",
+        "value": "Oatmeal"
+      },
+      {
+        "type": "Customer Reviews",
+        "value": "1276"
+      }
+    ],
+    "prices_breakdown": null,
+    "country_of_origin": "India",
+    "from_the_brand": null,
+    "product_description": [
+      {
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dee318ee-44aa-405d-ad68-f4800a02fb65.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9b59c5af-f34f-48c7-8313-87cadc20a70c.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a987bfbf-148e-449b-b53f-6d328ff33444.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5b298dc0-f1e5-4d7d-b607-9b2fa06dd5b6.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41%2BtUFzrY-L.__AC_SR150,300___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41V2RiArQ8L.__AC_SR150,300___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41jY%2BzuCChL.__AC_SR150,300___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41ooQN-00IL.__AC_SR150,300___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41DMsQSj%2BzL.__AC_SR150,300___.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51QMozLiygL.__AC_SR150,300___.jpg",
+        "type": "image"
+      }
+    ],
+    "seller_url": "https://www.amazon.com/sp?ie=UTF8&seller=A15APWRK6P7LBV&asin=B0FY6Y8T9F",
+    "customer_says": "Customers find these oats delicious and appreciate their high protein content of 26g per 100g serving, along with healthy nuts and seeds. They are easy to prepare and keep customers full for 3-4 hours, making them ideal for post-workout and weight management breakfasts. Customers consider the 1kg pack a great value for money.",
+    "sustainability_features": null,
+    "climate_pledge_friendly": false,
+    "videos": [
+      "https://www.amazon.in/vdp/1b7dbccf346c49909384c3219a0552fa",
+      "https://www.amazon.in/vdp/12675040e0f4418aa9a0656c97e16c1a"
+    ],
+    "other_sellers_prices": [
+      {
+        "price": 749,
+        "price_per_unit": 37.45,
+        "unit": "100 g",
+        "delivery": "FREE delivery Tuesday, 2 June. Details",
+        "seller_name": "RK World Infocom Pvt Ltd",
+        "seller_url": "https://www.amazon.in/gp/aag/main?ie=UTF8&seller=A15APWRK6P7LBV&isAmazonFulfilled=1&asin=B0FY6Y8T9F&ref_=olp_merch_name_1",
+        "seller_rating": 4,
+        "ships_from": "Amazon",
+        "num_of_ratings": 269072
+      },
+      {
+        "price": 929,
+        "price_per_unit": 46.45,
+        "unit": "100 g",
+        "delivery": "FREE delivery Thursday, 4 June. Details",
+        "seller_name": "Yogabar",
+        "seller_url": "https://www.amazon.in/gp/aag/main?ie=UTF8&seller=AA0J98CVDRG52&isAmazonFulfilled=1&asin=B0FY6Y8T9F&ref_=olp_merch_name_2",
+        "seller_rating": 5,
+        "ships_from": "Amazon",
+        "num_of_ratings": 16995
+      }
+    ],
+    "downloadable_videos": [
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/194e072f-a5a4-4838-b963-52789d5d612d/default.vertical.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/db5ce0f2-1314-4d56-a79a-2a557d75f651/default.vertical.jobtemplate.hls.m3u8"
+    ],
+    "editorial_reviews": null,
+    "about_the_author": null,
+    "zipcode": null,
+    "coupon": null,
+    "sponsered": true,
+    "store_url": "https://www.amazon.in/stores/YOGABAR/page/851552EE-E9F7-495B-A30F-51085EA5D08C?lp_asin=B0FY6Y8T9F&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override",
+    "ships_from": "Amazon",
+    "city": null,
+    "customers_say": {
+      "keywords": {
+        "positive": null,
+        "negative": null,
+        "mixed": null
+      }
+    },
+    "max_quantity_available": 12,
+    "variations_values": [
+      {
+        "variant_name": "Flavour Name",
+        "values": [
+          "Dark Chocolate",
+          "Dark Chocolate + Cranberry",
+          "High Protein Oats - Dark Chocolate",
+          "Muesli - Dark Chocolate",
+          "Oats - Dark Chocolate",
+          "Protein Bars - Assorted",
+          "Protein Oats - Dark Chocolate"
+        ]
+      },
+      {
+        "variant_name": "Size",
+        "values": [
+          "1 kg (Pack of 1)",
+          "1 kg (Pack of 2)",
+          "35 Bars",
+          "350 g (Pack of 1)",
+          "400 g (Pack of 1)",
+          "400 g (Pack of 2)",
+          "700 g (Pack of 1)",
+          "700.00 g (Pack of 2)",
+          "700 g (Pack of 3)",
+          "850 g (Pack of 1)",
+          "850 g (Pack of 2)",
+          "1000 g (Pack of 1)",
+          "1000 g (Pack of 2)",
+          "1000 g (Pack of 3)"
+        ]
+      }
+    ],
+    "language": null,
+    "return_policy": null,
+    "inactive_buy_box": {
+      "delivery": null
+    },
+    "buybox_seller_rating": null,
+    "premium_brand": false,
+    "amazon_prime": false,
+    "coupon_description": null,
+    "all_badges": null,
+    "sponsored": true,
+    "category_tree": [
+      {
+        "name": "Health & Personal Care",
+        "url": "https://www.amazon.in/health-and-personal-care/b/ref=dp_bc_1?ie=UTF8&node=1350384031"
+      },
+      {
+        "name": "Diet & Nutrition",
+        "url": "https://www.amazon.in/Diet-Nutrition/b/ref=dp_bc_2?ie=UTF8&node=1374489031"
+      },
+      {
+        "name": "Sports Supplements",
+        "url": "https://www.amazon.in/Sports-Supplements/b/ref=dp_bc_3?ie=UTF8&node=1374491031"
+      },
+      {
+        "name": "Protein Supplements",
+        "url": "https://www.amazon.in/b/ref=dp_bc_4?ie=UTF8&node=11364592031"
+      },
+      {
+        "name": "Protein Blends",
+        "url": "https://www.amazon.in/b/ref=dp_bc_5?ie=UTF8&node=11364600031"
+      }
+    ],
+    "variant_attributes": [
+      {
+        "name": "Flavour Name",
+        "value": "High Protein Oats - Dark Chocolate"
+      },
+      {
+        "name": "Size",
+        "value": "1000 g (Pack of 2)"
+      }
+    ],
+    "variants": [
+      {
+        "variant_type": "Flavour Name",
+        "variant_options": null
+      },
+      {
+        "variant_type": "Size",
+        "variant_options": [
+          {
+            "option_id": "B0FPLDFK2W",
+            "option_name": "High Protein Oats - Dark Chocolate, 1000 g (Pack of 1)",
+            "option_price": null,
+            "in_stock": null,
+            "image": null
+          },
+          {
+            "option_id": "B0FYD581QN",
+            "option_name": "High Protein Oats - Dark Chocolate, 1000 g (Pack of 3)",
+            "option_price": null,
+            "in_stock": null,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "target_countries": [
+      "in"
+    ],
+    "category_urls": [
+      "https://www.amazon.in/health-and-personal-care/b/ref=dp_bc_1?ie=UTF8&node=1350384031",
+      "https://www.amazon.in/Diet-Nutrition/b/ref=dp_bc_2?ie=UTF8&node=1374489031",
+      "https://www.amazon.in/Sports-Supplements/b/ref=dp_bc_3?ie=UTF8&node=1374491031",
+      "https://www.amazon.in/b/ref=dp_bc_4?ie=UTF8&node=11364592031",
+      "https://www.amazon.in/b/ref=dp_bc_5?ie=UTF8&node=11364600031"
+    ],
+    "subcategory_link": null,
+    "is_frequently_returned_item_badge": false,
+    "frequently_returned_item_message": null,
+    "is_customers_usually_keep": false,
+    "title_badge": null,
+    "timestamp": "2026-05-26T06:13:15.514Z",
+    "input": {
+      "url": "https://www.amazon.in/Yogabar-High-Protein-Oats-Chocolate/dp/B0FY6Y8T9F/ref=lp_11364592031_1_1?pf_rd_p=9e034799-55e2-4ab2-b0d0-eb42f95b2d05&pf_rd_r=1NCWBJ1QWZY2AH7QPTW3&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
+      "asin": "",
+      "zipcode": "",
+      "language": ""
+    }
+  },
+  "snapshot_id": "sd_mpm8nzi31xymemn3z7",
+  "platform": "amazon",
+  "method": "web_scraper",
+  "root_domain": null,
+  "snapshot_id_received_at": "2026-05-26T06:13:01.768935+00:00",
+  "snapshot_polled_at": [
+    "2026-05-26T06:13:01.768962+00:00",
+    "2026-05-26T06:13:12.561610+00:00",
+    "2026-05-26T06:13:23.377603+00:00"
+  ],
+  "html_char_size": null,
+  "row_count": 1,
+  "field_count": null
+}
