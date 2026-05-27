@@ -8,6 +8,22 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.types import Send
 from langchain.chat_models import init_chat_model
 from typing_extensions import TypedDict
+import json
+from prompts import (
+    get_query_planner_messages,
+    get_hiring_messages,
+    get_procurement_messages
+)
+
+from web_operations import (
+
+    hiring_search,
+
+    procurement_search
+
+)
+
+import asyncio
 
 load_dotenv()
 
@@ -105,17 +121,38 @@ def _organic_text(results: list[dict]) -> str:
 # STATE DEFINITIONS
 # ══════════════════════════════════════════════════════════════
 
+llm = init_chat_model("gemini-2.5-flash")
+
+
 class CompanyWorkerState(TypedDict):
+
     company_name: str
-    signals: Annotated[List[Dict[str, Any]], operator.add]
+
+    research_queries: Dict[str, Any]
+
+    signals: Annotated[
+        List[Dict[str, Any]],
+        operator.add
+    ]
+
     intent_score: int
+
     deep_research_results: Dict[str, Any]
+    final_output: Dict[str, Any]
+
     final_output: Dict[str, Any]
 
 
 class State(TypedDict):
+
     accounts: List[str]
-    final_gtm_reports: Annotated[List[Dict[str, Any]], operator.add]
+
+    planned_queries: Dict[str, Any]
+
+    final_gtm_reports: Annotated[
+        List[Dict[str, Any]],
+        operator.add
+    ]
 
 
 # ══════════════════════════════════════════════════════════════
@@ -131,6 +168,18 @@ def user_input_node(state: State) -> Dict[str, Any]:
     print(f"\n[user_input] Processing {len(accounts)} accounts: {accounts}")
     return {"accounts": accounts}
 
+    print("Executing user_input_node")
+
+    accounts = state.get("accounts", [])
+
+    if not accounts:
+        raise ValueError(
+            "No accounts provided. Pass accounts during app.invoke()."
+        )
+
+    return {
+        "accounts": accounts
+    }
 
 def query_planner_node(state: State) -> Dict[str, Any]:
     """
@@ -160,6 +209,44 @@ Example output: ["Goldman Sachs", "Pfizer", "JPMorgan Chase"]"""
     print(f"[query_planner] Keeping original accounts.")
     return {}
 
+    print("Executing query_planner_node")
+
+    accounts = state.get("accounts", [])
+
+    if not accounts:
+        raise ValueError(
+            "No accounts found for query planning."
+        )
+
+    prompt = get_query_planner_messages(accounts)
+
+    response = llm.invoke(
+        prompt.format_messages()
+    )
+
+    try:
+
+        planned_queries = json.loads(
+            response.content
+        )
+
+    except Exception as e:
+
+        print(
+            f"Query planner parse failed: {e}"
+        )
+
+        planned_queries = {}
+
+    print(
+        "Generated structured GTM research plan."
+    )
+
+    return {
+        "accounts": accounts,
+        "planned_queries": planned_queries
+    }
+
 
 def orchestrator_node(state: State):
     accounts = state.get("accounts", [])
@@ -184,6 +271,58 @@ def orchestrator_node(state: State):
 # ══════════════════════════════════════════════════════════════
 # SIGNAL COLLECTOR NODES  (fan-out from START of sub-graph)
 # ══════════════════════════════════════════════════════════════
+def orchestrator_node(state: State) -> List[Send]:
+
+    accounts = state.get("accounts", [])
+    planned_queries = state.get("planned_queries", {})
+
+    print(
+        f"Executing orchestrator_node "
+        f"for accounts: {accounts}"
+    )
+
+    if not accounts:
+        raise ValueError(
+            "orchestrator_node received empty accounts list."
+        )
+
+    workers = []
+
+    for company in accounts:
+
+        company_queries = planned_queries.get(
+            company,
+            {}
+        )
+
+        workers.append(
+
+            Send(
+                "company_researcher",
+                {
+                    "company_name": company,
+
+                    "research_queries":
+                    company_queries,
+
+                    "signals": [],
+
+                    "intent_score": 0,
+
+                    "deep_research_results": {},
+
+                    "final_output": {}
+                }
+            )
+        )
+
+    print(
+        f"Spawned {len(workers)} "
+        f"company researcher workers."
+    )
+
+    return workers
+
 
 def hiring_collector_node(state: CompanyWorkerState) -> Dict[str, Any]:
     """
@@ -227,6 +366,114 @@ Score guide: 0=no signal, 10=general tech hiring, 20=some AI roles, 30=aggressiv
                           "key_roles": parsed.get("key_roles", []),
                           "raw_count": len(results)}]}
 
+def hiring_collector_node(
+    state: CompanyWorkerState
+) -> Dict[str, Any]:
+
+    company_name = state["company_name"]
+
+    print(
+        f"Executing hiring_collector_node "
+        f"for {company_name}"
+    )
+
+    research_queries = state.get(
+        "research_queries",
+        {}
+    )
+
+    hiring_query = research_queries.get(
+        "hiring_query"
+    )
+
+    if not hiring_query:
+
+        hiring_query = (
+            f"{company_name} "
+            f"AI hiring LLM jobs"
+        )
+
+    # ----------------------------------
+    # Bright Data LinkedIn Job Search
+    # ----------------------------------
+
+    brightdata_results = asyncio.run(
+
+        hiring_search(
+
+            company=company_name,
+
+            query=hiring_query
+        )
+    )
+
+    # ----------------------------------
+    # LLM Prompt
+    # ----------------------------------
+
+    prompt = get_hiring_messages(
+
+        company=company_name,
+
+        query=hiring_query,
+
+        search_results=json.dumps(
+            brightdata_results,
+            indent=2
+        )
+    )
+
+    response = llm.invoke(
+        prompt.format_messages()
+    )
+
+    try:
+
+        analysis = json.loads(
+            response.content
+        )
+
+    except Exception:
+
+        analysis = {
+
+            "signal_summary":
+            response.content,
+
+            "roles_detected":[],
+
+            "ai_maturity":"unknown",
+
+            "buying_intent":"unknown",
+
+            "confidence_score":50
+        }
+
+    return {
+
+        "signals":[
+
+            {
+
+                "type":"hiring",
+
+                "data":{
+
+                    "company":
+                    company_name,
+
+                    "query_used":
+                    hiring_query,
+
+                    "linkedin_jobs":
+                    brightdata_results,
+
+                    "analysis":
+                    analysis
+                }
+            }
+        ]
+    }
 
 def procurement_collector_node(state: CompanyWorkerState) -> Dict[str, Any]:
     """
@@ -269,6 +516,117 @@ Score guide: 0=none, 8=general IT spend, 16=AI vendor mentions, 25=active RFP/ev
                           "summary": parsed.get("summary", ""),
                           "evidence": parsed.get("evidence", "")}]}
 
+def procurement_collector_node(
+    state: CompanyWorkerState
+) -> Dict[str, Any]:
+
+    company_name = state["company_name"]
+
+    print(
+        f"Executing procurement_collector_node "
+        f"for {company_name}"
+    )
+
+    research_queries = state.get(
+        "research_queries",
+        {}
+    )
+
+    procurement_query = research_queries.get(
+        "procurement_query"
+    )
+
+    if not procurement_query:
+
+        procurement_query = (
+
+            f"{company_name} "
+
+            f"AI vendor evaluation "
+
+            f"enterprise procurement RFP"
+        )
+
+    # ----------------------------------
+    # Bright Data Procurement Search
+    # ----------------------------------
+
+    brightdata_results = procurement_search(
+
+        company=company_name,
+
+        query=procurement_query
+    )
+
+    # ----------------------------------
+    # LLM Prompt
+    # ----------------------------------
+
+    prompt = get_procurement_messages(
+
+        company=company_name,
+
+        query=procurement_query,
+
+        search_results=json.dumps(
+            brightdata_results,
+            indent=2
+        )
+    )
+
+    response = llm.invoke(
+        prompt.format_messages()
+    )
+
+    try:
+
+        analysis = json.loads(
+            response.content
+        )
+
+    except Exception:
+
+        analysis = {
+
+            "signal_summary":
+            response.content,
+
+            "vendors_detected":[],
+
+            "procurement_stage":
+            "unknown",
+
+            "buying_intent":
+            "unknown",
+
+            "confidence_score":50
+        }
+
+    return {
+
+        "signals":[
+
+            {
+
+                "type":"procurement",
+
+                "data":{
+
+                    "company":
+                    company_name,
+
+                    "query_used":
+                    procurement_query,
+
+                    "brightdata_results":
+                    brightdata_results,
+
+                    "analysis":
+                    analysis
+                }
+            }
+        ]
+    }
 
 def compliance_collector_node(state: CompanyWorkerState) -> Dict[str, Any]:
     """
