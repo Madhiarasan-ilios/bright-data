@@ -1,20 +1,54 @@
+from twilio.rest import Client
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
+# Load credentials from environment variables
+ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID", "")
+AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN", "")
+SERVICE_SID = os.environ.get("TWILIO_SERVICE_SID", "")
 
-api_key = os.getenv("BRIGHT_DATA_API_KEY")
+client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
-from langchain_brightdata import BrightDataSERP
 
-serp_tool = BrightDataSERP(bright_data_api_key=api_key)
+def main():
+    email = input("Enter your email: ").strip()
 
-from langchain_brightdata import BrightDataSERP
+    # STEP 1: Send OTP
+    try:
+        verification = client.verify.v2.services(SERVICE_SID) \
+            .verifications \
+            .create(
+                to=email,
+                channel="email"
+            )
 
-# Initialize the tool
-serp_tool = BrightDataSERP()
+        print("OTP sent. Status:", verification.status)
 
-# Run a basic search
-results = serp_tool.invoke("latest AI research papers")
+    except Exception as e:
+        print("Error sending OTP:", e)
+        return
 
-print(results)
+    # STEP 2: Enter OTP
+    code = input("Enter OTP: ").strip()
+
+    # STEP 3: Verify OTP
+    try:
+        result = client.verify.v2.services(SERVICE_SID) \
+            .verification_checks \
+            .create(
+                to=email,
+                code=code
+            )
+
+        print("Verification Status:", result.status)
+
+        if result.status == "approved":
+            print("✅ SUCCESS")
+        else:
+            print("❌ FAILED")
+
+    except Exception as e:
+        print("Error verifying OTP:", e)
+
+
+if __name__ == "__main__":
+    main()

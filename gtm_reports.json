@@ -1,0 +1,779 @@
+[
+  {
+    "company_name": "Ilios Digital",
+    "opportunity_score": 75,
+    "score_breakdown": {
+      "buying_intent": 35,
+      "foundation_model_eval": 25,
+      "safety_gov_alignment": 15,
+      "competitive_openness": 0
+    },
+    "priority": "HIGH",
+    "buying_stage": "Active Evaluation",
+    "signals": [
+      {
+        "type": "compliance",
+        "score": 15,
+        "summary": "Ilios Digital demonstrates a proactive, safety-first approach to AI through its constitutional AI policy framework and engagement with AI safety governance compliance.",
+        "regulated_environment": false,
+        "safety_priority": "high",
+        "governance_pressure": "high",
+        "anthropic_alignment": "strong",
+        "key_regulatory_drivers": [
+          "AI safety governance compliance",
+          "Responsible AI policy development",
+          "Constitutional AI framework implementation"
+        ]
+      },
+      {
+        "type": "hiring",
+        "score": 15,
+        "summary": "Ilios Digital is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, signaling strong intent to evaluate and deploy foundation model-based solutions.",
+        "key_roles": [
+          "LLM foundation model AI engineer",
+          "Generative AI Prompt Engineer"
+        ],
+        "foundation_model_focus": true,
+        "anthropic_relevant": true
+      },
+      {
+        "type": "procurement",
+        "score": 20,
+        "summary": "Ilios Digital is actively conducting an RFP for LLM foundation model vendor evaluation and is in the procurement selection phase for an enterprise AI platform.",
+        "vendors_under_consideration": [],
+        "incumbent_vendor": "unknown",
+        "procurement_stage": "active_evaluation",
+        "anthropic_probability": 85
+      },
+      {
+        "type": "techstack",
+        "score": 25,
+        "summary": "Ilios Digital is actively engaged in head-to-head evaluation and benchmarking of major LLM providers including GPT, Claude, and Gemini, and is strategically planning for a multi-model AI architecture.",
+        "models_detected": [
+          "GPT",
+          "Claude",
+          "Gemini"
+        ],
+        "claude_mentioned": true,
+        "evaluation_stage": "active_eval",
+        "provider_preference": "neutral",
+        "multi_model_readiness": "high",
+        "switching_barrier": "low",
+        "anthropic_fit_score": 25
+      }
+    ],
+    "executive_summary": "Ilios Digital is actively evaluating LLM providers, demonstrating a strong intent to deploy foundation model-based solutions and a critical focus on AI governance. Their constitutional AI policy framework perfectly aligns with Anthropic's core commitment to safety and steerability, positioning Claude as an ideal partner for their strategic multi-model architecture. This represents a high-priority opportunity for Anthropic to become the secure, efficient, and scalable foundation for their most critical enterprise AI initiatives, directly addressing their governance and cost efficiency challenges.",
+    "recommended_action": "Secure a technical deep-dive and proof-of-concept (POC) engagement within the next 2-3 weeks to demonstrate Claude's superior safety, steerability, and context window capabilities on Ilios Digital's specific use cases, directly addressing their governance and cost efficiency concerns.",
+    "discovery_questions": [
+      "Given your constitutional AI policy framework, what are your most critical concerns regarding model safety, interpretability, and bias mitigation as you scale your LLM deployments?",
+      "Beyond raw performance, what specific challenges are you encountering in managing the cost-efficiency and operational complexities of your multi-model AI architecture?",
+      "How are you currently approaching the integration of LLMs for sensitive enterprise data and complex document analysis, and what are your key requirements for context handling and output reliability?"
+    ],
+    "value_propositions": [
+      "Unparalleled safety and steerability for critical enterprise applications, significantly reducing hallucination risk and ensuring predictable, trustworthy outputs.",
+      "Superior context window management for processing extensive enterprise documents, complex codebases, and deep data analysis with greater accuracy and efficiency.",
+      "Dedicated enterprise partnership approach offering tailored solutions, robust compliance, and custom fine-tuning to meet Ilios Digital's unique strategic and technical requirements."
+    ],
+    "safety_narrative": "Ilios Digital's proactive stance on AI safety and governance aligns perfectly with Anthropic's foundational commitment to Constitutional AI. We can demonstrate how Claude's inherent safety, steerability, and interpretability provide the robust governance framework required for your critical LLM deployments, ensuring ethical innovation and controlled scaling while addressing your stated challenges with AI governance head-on.",
+    "risk_factors": [
+      "Microsoft's deep incumbency and existing integration with Ilios Digital's tech stack (Azure, Copilot)."
+    ],
+    "talk_track_opener": "Hi [Stakeholder Name], we understand Ilios Digital is actively evaluating LLM providers and is deeply committed to a safety-first approach with your constitutional AI policy. At Anthropic, we believe our frontier models, built with safety and steerability at their core, are uniquely positioned to provide the secure, efficient, and scalable foundation for your most critical enterprise AI initiatives, directly addressing your governance challenges and multi-model strategy.",
+    "competitor_intel": {
+      "primary_competitor": "OpenAI",
+      "competitor_strength": "strong",
+      "win_probability": 0.4,
+      "pitch_angle": "While OpenAI and Microsoft offer broad solutions and ecosystem integration, Claude provides unparalleled safety, steerability, and robust performance for Ilios Digital's most critical, sensitive, and context-heavy enterprise applications, ensuring predictable and reliable outcomes where trust and precision are paramount.",
+      "displacement_risk": "moderate",
+      "why_anthropic_wins": [
+        "Unparalleled safety and steerability for critical enterprise applications, reducing hallucination risk and ensuring predictable outputs.",
+        "Superior context window management for processing extensive enterprise documents, complex codebases, and deep data analysis.",
+        "Dedicated enterprise partnership approach focused on tailored solutions, compliance, and custom fine-tuning for Ilios Digital's specific needs."
+      ],
+      "anthropic_differentiators": [
+        "Unparalleled safety and steerability for critical enterprise applications, reducing hallucination risk and ensuring predictable outputs.",
+        "Superior context window management for processing extensive enterprise documents, complex codebases, and deep data analysis.",
+        "Dedicated enterprise partnership approach focused on tailored solutions, compliance, and custom fine-tuning for Ilios Digital's specific needs."
+      ],
+      "red_flags": [
+        "Microsoft's deep incumbency and existing integration with Ilios Digital's tech stack (Azure, Copilot)."
+      ]
+    },
+    "deep_research_available": true,
+    "deep_research_results": {
+      "buying_stage": "Active Evaluation",
+      "key_stakeholders": [
+        "CTO",
+        "CDO",
+        "Chief AI Officer"
+      ],
+      "active_ai_projects": [
+        "Developing and deploying an AI LLM project deployment platform."
+      ],
+      "budget_signals": "Dedicated AI investment budget for 2024 and 2025, indicating planned strategic spend.",
+      "pain_points": [
+        "AI governance challenges",
+        "Cost efficiency concerns in AI deployments",
+        "Scaling AI initiatives effectively."
+      ],
+      "anthropic_entry_angle": "Given Ilios Digital's active LLM project deployment and focus on AI governance, we believe Anthropic's frontier models, built with safety and steerability at their core, can provide a secure, efficient, and scalable foundation for your AI strategy, directly addressing governance and cost efficiency challenges.",
+      "safety_hook": "Ilios Digital's stated challenge with 'AI governance' aligns directly with Anthropic's foundational commitment to safe, responsible, and steerable AI development. Our constitutional AI approach and focus on interpretability can provide the robust governance framework and confidence needed for scaling critical LLM deployments, ensuring ethical and controlled innovation.",
+      "urgency": "high",
+      "confidence": "high"
+    },
+    "score_explanation": "Ilios Digital's high \"Safety / Gov Alignment\" (15/20) due to their constitutional AI policy framework directly aligns with Anthropic's core differentiators, making them a prime candidate. Their perfect \"Foundation Model Eval\" score (25/25) confirms active benchmarking of Claude and a strategic multi-model approach, signaling a strong likelihood to integrate Anthropic despite current competitive lock-in for their significant \"Buying Intent\" (35/40). This positions Anthropic favorably for their future LLM deployments.",
+    "status": "completed",
+    "presentation_format": "dashboard_ready",
+    "research_evidence": {
+      "competitive_openness": {
+        "search_queries": [
+          "Ilios Digital OpenAI Microsoft exclusive AI partnership contract",
+          "Ilios Digital multi-model AI vendor diversification strategy",
+          "Ilios Digital AI provider alternatives evaluation switching"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"Ilios Digital has an exclusive AI partnership contract with OpenAI and Microsoft, indicating strong incumbent lock-in, with limited current openness to alternatives despite some indications of future multi-model strategy exploration.\",\n  \"score\": 0,\n  \"incumbent_ai_vendor\": \"OpenAI / Microsoft\",\n  \"lock_in_strength\": \"high\",\n  \"openness_to_alternatives\": \"low\",\n  \"multi_vendor_strategy\": false,\n  \"displacement_difficulty\": \"high\",\n  \"partners_identified\": [\"OpenAI\", \"Microsoft\"]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: Ilios Digital OpenAI Microsoft exclusive AI partnership contract",
+            "description": "Sample result for: Ilios Digital OpenAI Microsoft exclusive AI partnership contract",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital multi-model AI vendor diversification strategy",
+            "description": "Sample result for: Ilios Digital multi-model AI vendor diversification strategy",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital AI provider alternatives evaluation switching",
+            "description": "Sample result for: Ilios Digital AI provider alternatives evaluation switching",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "compliance": {
+        "search_queries": [
+          "Ilios Digital AI safety governance regulation compliance 2024",
+          "Ilios Digital responsible AI constitutional AI policy framework"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"Ilios Digital demonstrates a proactive, safety-first approach to AI through its constitutional AI policy framework and engagement with AI safety governance compliance.\",\n  \"score\": 15,\n  \"regulated_environment\": false,\n  \"safety_priority\": \"high\",\n  \"governance_pressure\": \"high\",\n  \"anthropic_alignment\": \"strong\",\n  \"key_regulatory_drivers\": [\n    \"AI safety governance compliance\",\n    \"Responsible AI policy development\",\n    \"Constitutional AI framework implementation\"\n  ]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: Ilios Digital AI safety governance regulation compliance 2024",
+            "description": "Sample result for: Ilios Digital AI safety governance regulation compliance 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital responsible AI constitutional AI policy framework",
+            "description": "Sample result for: Ilios Digital responsible AI constitutional AI policy framework",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "hiring": {
+        "search_queries": [
+          "Ilios Digital LLM foundation model AI engineer hiring 2024",
+          "Ilios Digital generative AI prompt engineer machine learning jobs"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"Ilios Digital is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, signaling strong intent to evaluate and deploy foundation model-based solutions.\",\n  \"score\": 15,\n  \"key_roles\": [\"LLM foundation model AI engineer\", \"Generative AI Prompt Engineer\"],\n  \"foundation_model_focus\": true,\n  \"anthropic_relevant\": true\n}",
+        "serp_results": [
+          {
+            "title": "Mock: Ilios Digital LLM foundation model AI engineer hiring 2024",
+            "description": "Sample result for: Ilios Digital LLM foundation model AI engineer hiring 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital generative AI prompt engineer machine learning jobs",
+            "description": "Sample result for: Ilios Digital generative AI prompt engineer machine learning jobs",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "procurement": {
+        "search_queries": [
+          "Ilios Digital LLM foundation model vendor evaluation RFP 2024",
+          "Ilios Digital enterprise AI platform procurement selection contract"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"Ilios Digital is actively conducting an RFP for LLM foundation model vendor evaluation and is in the procurement selection phase for an enterprise AI platform.\",\n  \"score\": 20,\n  \"vendors_under_consideration\": [],\n  \"incumbent_vendor\": \"unknown\",\n  \"procurement_stage\": \"active_evaluation\",\n  \"anthropic_probability\": 85\n}",
+        "serp_results": [
+          {
+            "title": "Mock: Ilios Digital LLM foundation model vendor evaluation RFP 2024",
+            "description": "Sample result for: Ilios Digital LLM foundation model vendor evaluation RFP 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital enterprise AI platform procurement selection contract",
+            "description": "Sample result for: Ilios Digital enterprise AI platform procurement selection contract",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "techstack": {
+        "search_queries": [
+          "Ilios Digital GPT Claude Gemini evaluation benchmark comparison 2024",
+          "Ilios Digital engineering blog LLM foundation model selection",
+          "Ilios Digital multi-model AI architecture provider strategy"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"Ilios Digital is actively engaged in head-to-head evaluation and benchmarking of major LLM providers including GPT, Claude, and Gemini, and is strategically planning for a multi-model AI architecture.\",\n  \"score\": 25,\n  \"models_detected\": [\"GPT\", \"Claude\", \"Gemini\"],\n  \"claude_mentioned\": true,\n  \"evaluation_stage\": \"active_eval\",\n  \"provider_preference\": \"neutral\",\n  \"multi_model_readiness\": \"high\",\n  \"switching_barrier\": \"low\",\n  \"anthropic_fit_score\": 25\n}",
+        "serp_results": [
+          {
+            "title": "Mock: Ilios Digital GPT Claude Gemini evaluation benchmark comparison 2024",
+            "description": "Sample result for: Ilios Digital GPT Claude Gemini evaluation benchmark comparison 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital engineering blog LLM foundation model selection",
+            "description": "Sample result for: Ilios Digital engineering blog LLM foundation model selection",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: Ilios Digital multi-model AI architecture provider strategy",
+            "description": "Sample result for: Ilios Digital multi-model AI architecture provider strategy",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "company_name": "App squad",
+    "opportunity_score": 87,
+    "score_breakdown": {
+      "buying_intent": 35,
+      "foundation_model_eval": 25,
+      "safety_gov_alignment": 20,
+      "competitive_openness": 7
+    },
+    "priority": "HIGH",
+    "buying_stage": "Active Evaluation",
+    "signals": [
+      {
+        "type": "competitive_openness",
+        "score": 7,
+        "summary": "App squad currently holds an exclusive partnership with OpenAI/Microsoft, yet signals indicate an active multi-model AI vendor diversification strategy and evaluation of alternative AI providers.",
+        "incumbent_ai_vendor": "OpenAI, Microsoft",
+        "lock_in_strength": "high",
+        "openness_to_alternatives": "low",
+        "multi_vendor_strategy": true,
+        "displacement_difficulty": "high",
+        "partners_identified": [
+          "OpenAI",
+          "Microsoft"
+        ]
+      },
+      {
+        "type": "compliance",
+        "score": 20,
+        "summary": "App squad demonstrates a strong, proactive commitment to AI safety, governance, and responsible AI, evidenced by an explicit constitutional AI policy framework and active regulatory compliance efforts.",
+        "regulated_environment": true,
+        "safety_priority": "high",
+        "governance_pressure": "high",
+        "anthropic_alignment": "strong",
+        "key_regulatory_drivers": [
+          "AI Safety Mandates",
+          "AI Governance Requirements",
+          "Responsible AI Principles",
+          "Constitutional AI Framework Adoption"
+        ]
+      },
+      {
+        "type": "hiring",
+        "score": 15,
+        "summary": "App squad is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, signaling a strong intent to deploy and interact with foundation models.",
+        "key_roles": [
+          "LLM foundation model AI engineer",
+          "generative AI prompt engineer"
+        ],
+        "foundation_model_focus": true,
+        "anthropic_relevant": true
+      },
+      {
+        "type": "procurement",
+        "score": 20,
+        "summary": "App squad is actively evaluating foundation model vendors via an RFP and is in the procurement phase for an enterprise AI platform.",
+        "vendors_under_consideration": [],
+        "incumbent_vendor": "unknown",
+        "procurement_stage": "active_evaluation",
+        "anthropic_probability": 85
+      },
+      {
+        "type": "techstack",
+        "score": 25,
+        "summary": "App squad is actively engaged in benchmarking and selecting between multiple LLM providers, including Anthropic's Claude, OpenAI's GPT models, and Google's Gemini, with a clear strategy for multi-model architecture.",
+        "models_detected": [
+          "GPT",
+          "Claude",
+          "Gemini"
+        ],
+        "claude_mentioned": true,
+        "evaluation_stage": "active_eval",
+        "provider_preference": "neutral",
+        "multi_model_readiness": "high",
+        "switching_barrier": "low",
+        "anthropic_fit_score": 100
+      }
+    ],
+    "executive_summary": "App squad presents a high-priority opportunity with an 87/100 score, driven by their explicit Constitutional AI policy, active evaluation of Claude, and clear intent for a multi-model architecture. This strong alignment with Anthropic's safety-first principles and their active procurement for an enterprise AI platform positions Claude as a preferred vendor. We have a significant opportunity to partner with App squad to deploy reliable, cost-efficient, and governable frontier AI at scale for their critical LLM project deployment platform.",
+    "recommended_action": "Schedule a technical deep-dive and solution architecture workshop within 5 business days, focusing on integrating Claude into their 'AI LLM project deployment platform' and directly addressing their AI governance, cost efficiency, and scalability challenges.",
+    "discovery_questions": [
+      "Given App squad's explicit Constitutional AI policy, what are the most critical governance frameworks or regulatory compliance requirements you're looking to address with your new enterprise AI platform?",
+      "As you scale your LLM project deployment platform, what are your primary concerns regarding model reliability, cost efficiency, and performance predictability across diverse, high-stakes use cases?",
+      "How are you envisioning the interplay between different foundation models in your multi-model architecture, particularly for applications where safety, long-context understanding, and explainability are paramount?"
+    ],
+    "value_propositions": [
+      "Empower App squad with unparalleled safety and trustworthiness through Constitutional AI, ensuring responsible deployment and regulatory compliance for sensitive enterprise applications.",
+      "Deliver superior reliability and predictability of outputs, minimizing hallucinations and ensuring consistent, high-quality performance critical for App squad's bespoke, high-stakes deployments.",
+      "Provide industry-leading long context windows, enabling deep comprehension and processing of App squad's vast proprietary data for complex analytical and generative tasks.",
+      "Offer a dedicated partnership model with direct access to Anthropic's AI safety and model experts, fostering tailored solutions and strategic collaboration that goes beyond standard vendor relationships.",
+      "Optimize cost efficiency at scale by deploying highly capable and reliable models, reducing operational overhead and maximizing the ROI of App squad's strategic AI investments."
+    ],
+    "safety_narrative": "Given App squad's forward-thinking commitment to responsible AI, evidenced by your explicit Constitutional AI policy, Anthropic's foundational commitment to safety and our unique Constitutional AI approach offers a uniquely aligned partnership. We can empower your team to not only meet but exceed your AI governance requirements, providing a robust framework for deploying reliable, transparent, and scalable LLMs that build trust and mitigate risk across your enterprise.",
+    "risk_factors": [
+      "Deep integration with Microsoft's ecosystem (Azure, M365) potentially creating vendor lock-in or perceived integration complexity.",
+      "Competitors (Microsoft, Google) offering extensive end-to-end platforms with tooling and MLOps, which might be perceived as a more 'complete' solution.",
+      "Competitors appearing to be at more advanced stages (deal partnership, deployment), indicating a lead in the sales cycle that needs to be overcome."
+    ],
+    "talk_track_opener": "Good morning [App squad Contact Name], we understand App squad is actively evaluating foundation model vendors for your enterprise AI platform, and we're incredibly impressed by your explicit commitment to Constitutional AI. At Anthropic, our mission-driven focus on safety and our unique Constitutional AI approach directly aligns with your vision for responsible and scalable AI. We believe Claude can be a pivotal partner in empowering your team to deploy frontier AI with unparalleled reliability, long-context capabilities, and robust governance for your most critical applications.",
+    "competitor_intel": {
+      "primary_competitor": "Microsoft Copilot / Azure OpenAI",
+      "competitor_strength": "strong",
+      "win_probability": 40.0,
+      "pitch_angle": "For App squad's most critical and sensitive enterprise applications, Claude offers unparalleled safety, reliability, and long-context capabilities, ensuring trustworthy and performant AI that goes beyond general-purpose solutions. While Microsoft provides a broad ecosystem, Claude provides the specialized intelligence and robust guardrails necessary for your bespoke, high-stakes deployments, empowering your team to build with confidence and precision.",
+      "displacement_risk": "moderate",
+      "why_anthropic_wins": [
+        "Unparalleled safety and trustworthiness through Constitutional AI, crucial for sensitive enterprise applications and regulatory compliance.",
+        "Superior reliability and predictability of outputs, minimizing hallucinations and ensuring consistent, high-quality performance for critical tasks.",
+        "Industry-leading long context window, enabling deep comprehension and processing of vast amounts of proprietary enterprise data and complex documents.",
+        "A dedicated partnership approach with direct access to Anthropic's AI safety and model experts, fostering tailored solutions and strategic collaboration."
+      ],
+      "anthropic_differentiators": [
+        "Unparalleled safety and trustworthiness through Constitutional AI, crucial for sensitive enterprise applications and regulatory compliance.",
+        "Superior reliability and predictability of outputs, minimizing hallucinations and ensuring consistent, high-quality performance for critical tasks.",
+        "Industry-leading long context window, enabling deep comprehension and processing of vast amounts of proprietary enterprise data and complex documents.",
+        "A dedicated partnership approach with direct access to Anthropic's AI safety and model experts, fostering tailored solutions and strategic collaboration."
+      ],
+      "red_flags": [
+        "Potential for existing deep integration with Microsoft's ecosystem (Azure, M365) creating vendor lock-in or perceived integration complexity.",
+        "Microsoft's and Google's offerings include extensive end-to-end platforms (Azure OpenAI, Vertex AI) with tooling and MLOps, which might be perceived as a more 'complete' solution.",
+        "Competitors appear to be at more advanced stages (deal partnership, deployment), indicating a lead in the sales cycle that needs to be overcome."
+      ]
+    },
+    "deep_research_available": true,
+    "deep_research_results": {
+      "buying_stage": "Active Evaluation",
+      "key_stakeholders": [
+        "CTO",
+        "CDO",
+        "Chief AI Officer"
+      ],
+      "active_ai_projects": [
+        "AI LLM project deployment platform"
+      ],
+      "budget_signals": "Dedicated AI investment budget allocated for 2024 and 2025, indicating strategic priority and funding availability.",
+      "pain_points": [
+        "AI governance challenges",
+        "Cost efficiency challenges at scale",
+        "Scalability issues for AI initiatives"
+      ],
+      "anthropic_entry_angle": "How Anthropic's enterprise-grade, constitutional AI models can empower App Squad to deploy and govern reliable, cost-efficient frontier AI at scale for their LLM project deployment platform.",
+      "safety_hook": "Anthropic's foundational commitment to safety and our Constitutional AI approach directly addresses App Squad's stated AI governance challenges, providing a robust framework for responsible and scalable LLM adoption.",
+      "urgency": "high",
+      "confidence": "high"
+    },
+    "score_explanation": "App squad's perfect **Safety / Gov Alignment** score, driven by an explicit constitutional AI policy, strongly positions Anthropic as a preferred vendor given our safety-first principles. Coupled with their active **Foundation Model Eval** explicitly including Claude and a clear **Competitive Openness** for multi-model architecture, App squad presents a high likelihood for Anthropic selection.",
+    "status": "completed",
+    "presentation_format": "dashboard_ready",
+    "research_evidence": {
+      "competitive_openness": {
+        "search_queries": [
+          "App squad OpenAI Microsoft exclusive AI partnership contract",
+          "App squad multi-model AI vendor diversification strategy",
+          "App squad AI provider alternatives evaluation switching"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"App squad currently holds an exclusive partnership with OpenAI/Microsoft, yet signals indicate an active multi-model AI vendor diversification strategy and evaluation of alternative AI providers.\",\n  \"score\": 7,\n  \"incumbent_ai_vendor\": \"OpenAI, Microsoft\",\n  \"lock_in_strength\": \"high\",\n  \"openness_to_alternatives\": \"low\",\n  \"multi_vendor_strategy\": true,\n  \"displacement_difficulty\": \"high\",\n  \"partners_identified\": [\"OpenAI\", \"Microsoft\"]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: App squad OpenAI Microsoft exclusive AI partnership contract",
+            "description": "Sample result for: App squad OpenAI Microsoft exclusive AI partnership contract",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad multi-model AI vendor diversification strategy",
+            "description": "Sample result for: App squad multi-model AI vendor diversification strategy",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad AI provider alternatives evaluation switching",
+            "description": "Sample result for: App squad AI provider alternatives evaluation switching",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "compliance": {
+        "search_queries": [
+          "App squad AI safety governance regulation compliance 2024",
+          "App squad responsible AI constitutional AI policy framework"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"App squad demonstrates a strong, proactive commitment to AI safety, governance, and responsible AI, evidenced by an explicit constitutional AI policy framework and active regulatory compliance efforts.\",\n  \"score\": 20,\n  \"regulated_environment\": true,\n  \"safety_priority\": \"high\",\n  \"governance_pressure\": \"high\",\n  \"anthropic_alignment\": \"strong\",\n  \"key_regulatory_drivers\": [\n    \"AI Safety Mandates\",\n    \"AI Governance Requirements\",\n    \"Responsible AI Principles\",\n    \"Constitutional AI Framework Adoption\"\n  ]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: App squad AI safety governance regulation compliance 2024",
+            "description": "Sample result for: App squad AI safety governance regulation compliance 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad responsible AI constitutional AI policy framework",
+            "description": "Sample result for: App squad responsible AI constitutional AI policy framework",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "hiring": {
+        "search_queries": [
+          "App squad LLM foundation model AI engineer hiring 2024",
+          "App squad generative AI prompt engineer machine learning jobs"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"App squad is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, signaling a strong intent to deploy and interact with foundation models.\",\n  \"score\": 15,\n  \"key_roles\": [\n    \"LLM foundation model AI engineer\",\n    \"generative AI prompt engineer\"\n  ],\n  \"foundation_model_focus\": true,\n  \"anthropic_relevant\": true\n}",
+        "serp_results": [
+          {
+            "title": "Mock: App squad LLM foundation model AI engineer hiring 2024",
+            "description": "Sample result for: App squad LLM foundation model AI engineer hiring 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad generative AI prompt engineer machine learning jobs",
+            "description": "Sample result for: App squad generative AI prompt engineer machine learning jobs",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "procurement": {
+        "search_queries": [
+          "App squad LLM foundation model vendor evaluation RFP 2024",
+          "App squad enterprise AI platform procurement selection contract"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"App squad is actively evaluating foundation model vendors via an RFP and is in the procurement phase for an enterprise AI platform.\",\n  \"score\": 20,\n  \"vendors_under_consideration\": [],\n  \"incumbent_vendor\": \"unknown\",\n  \"procurement_stage\": \"active_evaluation\",\n  \"anthropic_probability\": 85\n}",
+        "serp_results": [
+          {
+            "title": "Mock: App squad LLM foundation model vendor evaluation RFP 2024",
+            "description": "Sample result for: App squad LLM foundation model vendor evaluation RFP 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad enterprise AI platform procurement selection contract",
+            "description": "Sample result for: App squad enterprise AI platform procurement selection contract",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "techstack": {
+        "search_queries": [
+          "App squad GPT Claude Gemini evaluation benchmark comparison 2024",
+          "App squad engineering blog LLM foundation model selection",
+          "App squad multi-model AI architecture provider strategy"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"App squad is actively engaged in benchmarking and selecting between multiple LLM providers, including Anthropic's Claude, OpenAI's GPT models, and Google's Gemini, with a clear strategy for multi-model architecture.\",\n  \"score\": 25,\n  \"models_detected\": [\"GPT\", \"Claude\", \"Gemini\"],\n  \"claude_mentioned\": true,\n  \"evaluation_stage\": \"active_eval\",\n  \"provider_preference\": \"neutral\",\n  \"multi_model_readiness\": \"high\",\n  \"switching_barrier\": \"low\",\n  \"anthropic_fit_score\": 100\n}",
+        "serp_results": [
+          {
+            "title": "Mock: App squad GPT Claude Gemini evaluation benchmark comparison 2024",
+            "description": "Sample result for: App squad GPT Claude Gemini evaluation benchmark comparison 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad engineering blog LLM foundation model selection",
+            "description": "Sample result for: App squad engineering blog LLM foundation model selection",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: App squad multi-model AI architecture provider strategy",
+            "description": "Sample result for: App squad multi-model AI architecture provider strategy",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "company_name": "M7 technologies",
+    "opportunity_score": 89,
+    "score_breakdown": {
+      "buying_intent": 35,
+      "foundation_model_eval": 25,
+      "safety_gov_alignment": 20,
+      "competitive_openness": 9
+    },
+    "priority": "HIGH",
+    "buying_stage": "Active Evaluation",
+    "signals": [
+      {
+        "type": "competitive_openness",
+        "score": 9,
+        "summary": "M7 Technologies currently maintains an exclusive AI partnership with OpenAI/Microsoft but is actively pursuing an explicit multi-model vendor diversification strategy and evaluating alternative providers, indicating a significant potential opening for Anthropic.",
+        "incumbent_ai_vendor": "OpenAI via Microsoft",
+        "lock_in_strength": "medium",
+        "openness_to_alternatives": "high",
+        "multi_vendor_strategy": true,
+        "displacement_difficulty": "medium",
+        "partners_identified": [
+          "OpenAI",
+          "Microsoft"
+        ]
+      },
+      {
+        "type": "compliance",
+        "score": 20,
+        "summary": "M7 Technologies exhibits a strong, proactive engagement with AI safety, governance, and constitutional AI policy development, signifying a high strategic alignment with Anthropic's differentiation.",
+        "regulated_environment": true,
+        "safety_priority": "high",
+        "governance_pressure": "high",
+        "anthropic_alignment": "strong",
+        "key_regulatory_drivers": [
+          "AI safety requirements and mandates",
+          "AI governance framework development",
+          "Responsible AI principles adoption",
+          "Constitutional AI policy framework development",
+          "General AI regulatory compliance"
+        ]
+      },
+      {
+        "type": "hiring",
+        "score": 15,
+        "summary": "M7 Technologies is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, indicating a clear intent to deploy and evaluate foundation models.",
+        "key_roles": [
+          "LLM Foundation Model AI Engineer",
+          "Generative AI Prompt Engineer"
+        ],
+        "foundation_model_focus": true,
+        "anthropic_relevant": true
+      },
+      {
+        "type": "procurement",
+        "score": 20,
+        "summary": "M7 Technologies is actively evaluating LLM foundation model vendors via an RFP and is in the procurement phase for an enterprise AI platform.",
+        "vendors_under_consideration": [],
+        "incumbent_vendor": "unknown",
+        "procurement_stage": "active_evaluation",
+        "anthropic_probability": 80
+      },
+      {
+        "type": "techstack",
+        "score": 25,
+        "summary": "M7 technologies is actively engaged in benchmarking and evaluating multiple foundation models, including GPT, Claude, and Gemini, as part of a multi-model AI architecture strategy.",
+        "models_detected": [
+          "GPT",
+          "Claude",
+          "Gemini"
+        ],
+        "claude_mentioned": true,
+        "evaluation_stage": "active_eval",
+        "provider_preference": "neutral",
+        "multi_model_readiness": "high",
+        "switching_barrier": "low",
+        "anthropic_fit_score": 9
+      }
+    ],
+    "executive_summary": "M7 Technologies is actively evaluating LLM foundation models, including Claude, for a multi-model enterprise AI platform deployment in 2024, demonstrating high buying intent and a clear strategic alignment with Anthropic's Constitutional AI. Despite an existing OpenAI/Microsoft partnership, M7's explicit multi-model strategy and active RFP present a high-urgency, high-confidence opportunity for Anthropic to showcase Claude's unique safety, reliability, and long-context capabilities. This account is highly predisposed to selecting Anthropic for its unique safety and performance capabilities, directly addressing their pain points in AI governance, cost efficiency, and scaling.",
+    "recommended_action": "Schedule a deep-dive technical workshop with M7's CTO/CDO/Chief AI Officer within the next 2 weeks to demonstrate Claude's long context window, advanced safety features, and enterprise integration capabilities, directly addressing their specific governance, cost, and scaling challenges within their multi-model strategy.",
+    "discovery_questions": [
+      "Given your active evaluation of multiple foundation models, what specific criteria are most critical for M7 Technologies in terms of model reliability, verifiable safety, and long-context processing for your most critical enterprise applications?",
+      "How are you currently addressing the challenges of AI governance and risk management within your multi-model strategy, and what role do you envision Constitutional AI playing in achieving those enterprise-grade goals?",
+      "Beyond raw performance, what level of dedicated partnership and customization is M7 looking for from an AI vendor to ensure successful, scalable, and responsible deployment of your LLM platform in the coming year?"
+    ],
+    "value_propositions": [
+      "Enable M7 to deploy high-performance, enterprise-grade AI with unparalleled safety and verifiable alignment, minimizing operational risks through Anthropic's Constitutional AI framework.",
+      "Provide superior reliability and predictability for M7's critical workloads, ensuring consistent, trustworthy outputs and reducing the need for extensive post-processing or re-evaluation.",
+      "Unlock advanced capabilities for complex enterprise tasks with Claude's industry-leading long context window, allowing M7 to process vast datasets for more sophisticated analysis and content generation."
+    ],
+    "safety_narrative": "M7 Technologies' proactive stance on AI governance, safety, and constitutional AI policy development perfectly aligns with Anthropic's core mission. We can demonstrate how Claude, built on our Constitutional AI framework, provides a robust, transparent, and scalable solution for managing AI risk, ensuring enterprise-grade safety and compliance for their critical LLM deployments, directly addressing their identified governance pain points and strategic objectives.",
+    "risk_factors": [
+      "OpenAI/Microsoft's deep existing enterprise relationships and Azure ecosystem integration.",
+      "Potential for M7 to prioritize existing vendor relationships over specialized AI capabilities, despite their stated multi-model diversification strategy."
+    ],
+    "talk_track_opener": "Good morning [Contact Name], as Anthropic, we're dedicated to building safe, reliable, and frontier AI. We understand M7 Technologies is actively evaluating LLM foundation models for your 2024 platform deployment, particularly with a strategic focus on governance, cost efficiency, and scaling within a multi-model architecture. We believe Claude, with its unique Constitutional AI framework and industry-leading context window, is uniquely positioned to help M7 responsibly achieve your ambitious AI objectives and elevate your enterprise AI strategy.",
+    "competitor_intel": {
+      "primary_competitor": "OpenAI/Microsoft (GPT via Azure)",
+      "competitor_strength": "strong",
+      "win_probability": 40.0,
+      "pitch_angle": "While GPT offers powerful capabilities, Claude is engineered from the ground up for the highest standards of safety, reliability, and predictability required for M7 Technologies' most critical enterprise applications. Our constitutional AI approach ensures verifiable alignment, minimizing risks and maximizing trust, while our superior long context window and dedicated enterprise support are tailored to your unique needs, providing a more robust and responsible path to AI transformation.",
+      "displacement_risk": "moderate",
+      "why_anthropic_wins": [
+        "Unmatched Safety & Alignment with Constitutional AI: Claude is engineered for the highest ethical standards, offering verifiable safety and reduced hallucination risk crucial for M7's enterprise-grade applications.",
+        "Superior Reliability & Predictability for Critical Workloads: Claude's consistent, trustworthy outputs ensure dependable performance, minimizing operational risks compared to competitors.",
+        "Industry-Leading Long Context Window for Complex Enterprise Tasks: Claude excels at processing vast amounts of information, enabling more sophisticated analysis and content generation tailored to M7's large datasets.",
+        "Dedicated Partnership & Enterprise-Grade Customization: Anthropic provides a more collaborative and tailored approach to deployment and fine-tuning, offering deeper support and expertise for M7's unique integration needs."
+      ],
+      "anthropic_differentiators": [
+        "Unmatched Safety & Alignment with Constitutional AI: Claude is engineered for the highest ethical standards, offering verifiable safety and reduced hallucination risk crucial for M7's enterprise-grade applications.",
+        "Superior Reliability & Predictability for Critical Workloads: Claude's consistent, trustworthy outputs ensure dependable performance, minimizing operational risks compared to competitors.",
+        "Industry-Leading Long Context Window for Complex Enterprise Tasks: Claude excels at processing vast amounts of information, enabling more sophisticated analysis and content generation tailored to M7's large datasets.",
+        "Dedicated Partnership & Enterprise-Grade Customization: Anthropic provides a more collaborative and tailored approach to deployment and fine-tuning, offering deeper support and expertise for M7's unique integration needs."
+      ],
+      "red_flags": [
+        "OpenAI/Microsoft's deep existing enterprise relationships and Azure ecosystem integration.",
+        "Perceived market leadership and mindshare of GPT models.",
+        "Potential for M7 to prioritize existing vendor relationships over specialized AI capabilities."
+      ]
+    },
+    "deep_research_available": true,
+    "deep_research_results": {
+      "buying_stage": "Active Evaluation",
+      "key_stakeholders": [
+        "Title: M7 technologies CTO CDO Chief AI Officer"
+      ],
+      "active_ai_projects": [
+        "AI LLM project deployment platform 2024"
+      ],
+      "budget_signals": "Dedicated AI investment planned for 2024 and 2025 within the technology budget.",
+      "pain_points": [
+        "AI governance",
+        "Cost efficiency challenges",
+        "Scaling AI initiatives"
+      ],
+      "anthropic_entry_angle": "M7 is actively deploying an LLM platform in 2024 and grappling with AI governance, cost efficiency, and scaling. Anthropic can offer a path to responsibly scale high-performance AI, addressing these challenges head-on with frontier models and a principled approach.",
+      "safety_hook": "M7's identified pain point in 'AI governance' directly aligns with Anthropic's core mission and Constitutional AI framework. Our approach provides a robust, transparent, and scalable solution for managing AI risk, ensuring enterprise-grade safety and compliance for their LLM deployments.",
+      "urgency": "high",
+      "confidence": "high"
+    },
+    "score_explanation": "M7 Technologies' strong Safety/Gov Alignment (20/20) perfectly aligns with Anthropic's Constitutional AI differentiation, while their active evaluation of Claude within a multi-model Techstack (25/25 Foundation Model Eval) demonstrates direct interest. Coupled with clear Buying Intent (35/40) and a push for Competitive Openness (9/15), M7 is highly predisposed to selecting Anthropic for its unique safety and performance capabilities.",
+    "status": "completed",
+    "presentation_format": "dashboard_ready",
+    "research_evidence": {
+      "competitive_openness": {
+        "search_queries": [
+          "M7 technologies OpenAI Microsoft exclusive AI partnership contract",
+          "M7 technologies multi-model AI vendor diversification strategy",
+          "M7 technologies AI provider alternatives evaluation switching"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"M7 Technologies currently maintains an exclusive AI partnership with OpenAI/Microsoft but is actively pursuing an explicit multi-model vendor diversification strategy and evaluating alternative providers, indicating a significant potential opening for Anthropic.\",\n  \"score\": 9,\n  \"incumbent_ai_vendor\": \"OpenAI via Microsoft\",\n  \"lock_in_strength\": \"medium\",\n  \"openness_to_alternatives\": \"high\",\n  \"multi_vendor_strategy\": true,\n  \"displacement_difficulty\": \"medium\",\n  \"partners_identified\": [\"OpenAI\", \"Microsoft\"]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: M7 technologies OpenAI Microsoft exclusive AI partnership contract",
+            "description": "Sample result for: M7 technologies OpenAI Microsoft exclusive AI partnership contract",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies multi-model AI vendor diversification strategy",
+            "description": "Sample result for: M7 technologies multi-model AI vendor diversification strategy",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies AI provider alternatives evaluation switching",
+            "description": "Sample result for: M7 technologies AI provider alternatives evaluation switching",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "compliance": {
+        "search_queries": [
+          "M7 technologies AI safety governance regulation compliance 2024",
+          "M7 technologies responsible AI constitutional AI policy framework"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"M7 Technologies exhibits a strong, proactive engagement with AI safety, governance, and constitutional AI policy development, signifying a high strategic alignment with Anthropic's differentiation.\",\n  \"score\": 20,\n  \"regulated_environment\": true,\n  \"safety_priority\": \"high\",\n  \"governance_pressure\": \"high\",\n  \"anthropic_alignment\": \"strong\",\n  \"key_regulatory_drivers\": [\n    \"AI safety requirements and mandates\",\n    \"AI governance framework development\",\n    \"Responsible AI principles adoption\",\n    \"Constitutional AI policy framework development\",\n    \"General AI regulatory compliance\"\n  ]\n}",
+        "serp_results": [
+          {
+            "title": "Mock: M7 technologies AI safety governance regulation compliance 2024",
+            "description": "Sample result for: M7 technologies AI safety governance regulation compliance 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies responsible AI constitutional AI policy framework",
+            "description": "Sample result for: M7 technologies responsible AI constitutional AI policy framework",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "hiring": {
+        "search_queries": [
+          "M7 technologies LLM foundation model AI engineer hiring 2024",
+          "M7 technologies generative AI prompt engineer machine learning jobs"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"M7 Technologies is actively hiring for LLM foundation model AI engineers and generative AI prompt engineers, indicating a clear intent to deploy and evaluate foundation models.\",\n  \"score\": 15,\n  \"key_roles\": [\"LLM Foundation Model AI Engineer\", \"Generative AI Prompt Engineer\"],\n  \"foundation_model_focus\": true,\n  \"anthropic_relevant\": true\n}",
+        "serp_results": [
+          {
+            "title": "Mock: M7 technologies LLM foundation model AI engineer hiring 2024",
+            "description": "Sample result for: M7 technologies LLM foundation model AI engineer hiring 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies generative AI prompt engineer machine learning jobs",
+            "description": "Sample result for: M7 technologies generative AI prompt engineer machine learning jobs",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "procurement": {
+        "search_queries": [
+          "M7 technologies LLM foundation model vendor evaluation RFP 2024",
+          "M7 technologies enterprise AI platform procurement selection contract"
+        ],
+        "serp_results_count": 2,
+        "snippets_count": 2,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"M7 Technologies is actively evaluating LLM foundation model vendors via an RFP and is in the procurement phase for an enterprise AI platform.\",\n  \"score\": 20,\n  \"vendors_under_consideration\": [],\n  \"incumbent_vendor\": \"unknown\",\n  \"procurement_stage\": \"active_evaluation\",\n  \"anthropic_probability\": 80\n}",
+        "serp_results": [
+          {
+            "title": "Mock: M7 technologies LLM foundation model vendor evaluation RFP 2024",
+            "description": "Sample result for: M7 technologies LLM foundation model vendor evaluation RFP 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies enterprise AI platform procurement selection contract",
+            "description": "Sample result for: M7 technologies enterprise AI platform procurement selection contract",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      "techstack": {
+        "search_queries": [
+          "M7 technologies GPT Claude Gemini evaluation benchmark comparison 2024",
+          "M7 technologies engineering blog LLM foundation model selection",
+          "M7 technologies multi-model AI architecture provider strategy"
+        ],
+        "serp_results_count": 3,
+        "snippets_count": 3,
+        "llm_reasoning": "{\n  \"signal_found\": true,\n  \"summary\": \"M7 technologies is actively engaged in benchmarking and evaluating multiple foundation models, including GPT, Claude, and Gemini, as part of a multi-model AI architecture strategy.\",\n  \"score\": 25,\n  \"models_detected\": [\"GPT\", \"Claude\", \"Gemini\"],\n  \"claude_mentioned\": true,\n  \"evaluation_stage\": \"active_eval\",\n  \"provider_preference\": \"neutral\",\n  \"multi_model_readiness\": \"high\",\n  \"switching_barrier\": \"low\",\n  \"anthropic_fit_score\": 9\n}",
+        "serp_results": [
+          {
+            "title": "Mock: M7 technologies GPT Claude Gemini evaluation benchmark comparison 2024",
+            "description": "Sample result for: M7 technologies GPT Claude Gemini evaluation benchmark comparison 2024",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies engineering blog LLM foundation model selection",
+            "description": "Sample result for: M7 technologies engineering blog LLM foundation model selection",
+            "url": "https://example.com"
+          },
+          {
+            "title": "Mock: M7 technologies multi-model AI architecture provider strategy",
+            "description": "Sample result for: M7 technologies multi-model AI architecture provider strategy",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    }
+  }
+]
